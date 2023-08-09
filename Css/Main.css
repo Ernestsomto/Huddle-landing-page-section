@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+/*General style for the boxes*/
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+/*Color stack*/
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft--Magenta: hsl(300, 69%, 71%);
+
+}
+body {
+    background: url(/images/bg-desktop.svg) var(--Violet);
+    
+}
+
+main {
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+header {
+    margin-left: 5%;
+    width: 40%;
+}
+
+header img {
+    width: 30%;
+}
+
+
+.main-wrapper {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    translate: 2rem 2rem;
+    
+}
+
+.huddle-img img {
+    padding: 10px;
+    width: 100%;
+
+}
+
+.text-info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    
+}
+
+.text-info h1 {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    width: 80%;
+    font-size: 2.2rem;
+    margin: 20px;
+}
+
+.text-info p {
+    margin: 0px 25px;
+    font-size: 1.1rem ;
+    font-family: "open sans", sans-serif;
+    width: 90%;
+}
+
+.btn-primary {
+    width: 45%;
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    margin: 5% 3.4%;
+    color: var(--Violet);
+    font-size: 1.3rem;
+    cursor: pointer;
+   
+
+}
+
+.btn-primary:hover {
+    background-color: var(--Soft--Magenta);
+    box-shadow: rgba(255, 255, 200, .10) 5px 5px 10px 0.9px;
+
+}
+
+.socials-groups {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+   
+    
+}
+
+.socials {
+    padding: 5px;
+}
+
+
+.socials a {
+    color: transparent;
+    list-style-type: none;
+    
+}
+
+i {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.fa-brands {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+    font-size: 25px
+}
+
+.fa-brands:hover {
+    background-color: var(--Soft--Magenta);
+
+}
+
+footer {
+    margin: 80px;
+}
+
+
+ @media (max-width:1000px) {
+    header img {
+        width: 70%;
+    }
+
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 4%;
+        translate: 0rem;
+        
+        
+    }
+
+    .text-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: 0px;
+        padding: 0px;
+    } 
+
+    .text-info h1 {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        font-size: 2rem;
+       
+    }
+
+    .huddle-img img {
+        width: 100%;
+    
+    }
+
+    .text-info p {
+        text-align: center;
+        width: 92%;
+    }
+    
+    .btn-primary {
+        width: 50%;
+        height: 60px;
+    }
+    
+    .socials-groups {
+        justify-content: center;
+    }
+    
+}
