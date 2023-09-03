@@ -5,7 +5,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Live Site URL: [netilfy](https://gregarious-flan-a52a4b.netlify.app/)
+- Live Site URL: [glitch](https://seasoned-pie-novel.glitch.me/)
 
 
 ## Author
